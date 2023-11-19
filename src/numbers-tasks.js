@@ -11,7 +11,7 @@
  * Returns an area of a rectangle given by width and height.
  *
  * @param {number} width
- * @param {number} height
+ * @param {number} heightpnpm
  * @return {number}
  *
  * @example:
@@ -306,7 +306,7 @@ function getSumOfDigits(num) {
     0
   );
 
-  return result
+  return result;
 }
 
 /**
@@ -533,7 +533,7 @@ function roundToLargestInteger(number) {
  * -5.5 => -5
  */
 function roundToNearestInteger(number) {
-  return Math.round(number)
+  return Math.round(number);
 }
 
 /**
